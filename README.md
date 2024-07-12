@@ -18,11 +18,6 @@
 - [Screenshots](#screenshots)
 - [Technologies Used](#technologies-used)
 - [Setup and Installation](#setup-and-installation)
-- [Configuration](#configuration)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 <!-- Features -->
 ## Features
@@ -40,76 +35,93 @@
 ## Screenshots
 
 <p align="center">
-  <img src="WhatsApp Image 2024-07-12 at 21.14.52.jpeg" alt="Login Screen" width="200">
+  <img src="WhatsApp Image 2024-07-12 at 21.14.52.jpeg" alt="Login Screen" width="250">
   &nbsp;&nbsp;
-  <img src="WhatsApp Image 2024-07-12 at 21.14.53.jpeg" alt="Search News" width="200">
+  <img src="WhatsApp Image 2024-07-12 at 21.14.53.jpeg" alt="SignUp Screen" width="250">
   &nbsp;&nbsp;
-   <img src="WhatsApp Image 2024-07-12 at 21.14.53 (1).jpeg" alt="News Details" width="200"> 
-  &nbsp;&nbsp;
-  <img src="WhatsApp Image 2024-07-12 at 21.14.54.jpeg" alt="Favorites" width="200">
+  <img src="WhatsApp Image 2024-07-12 at 21.14.53 (1).jpeg" alt="Add Account" width="250">
 </p>
 
 <p align="center">
-  <b>Sign Up Screen</b> &nbsp;&nbsp;&nbsp;&nbsp;
-  <b>Sign In Screen</b> &nbsp;&nbsp;&nbsp;&nbsp;
-  <b>Account Profile Screen</b> &nbsp;&nbsp;&nbsp;&nbsp;
-  <b>Subscription Screen</b>
+  <b>Login Screen</b> &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>SignUp Screen</b> &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Add Account</b>
 </p>
 
 <br>
+
 <p align="center">
-    <img src="WhatsApp Image 2024-07-12 at 21.14.55.jpeg" alt="News Details" width="200">
+  <img src="WhatsApp Image 2024-07-12 at 21.14.54.jpeg" alt="Subscription Screen" width="250">
   &nbsp;&nbsp;
-  <img src="WhatsApp Image 2024-07-12 at 21.14.55 (1).jpeg" alt="Home Screen" width="200">
+  <img src="WhatsApp Image 2024-07-12 at 21.14.55.jpeg" alt="Add Account Details" width="250">
   &nbsp;&nbsp;
-   <img src="WhatsApp Image 2024-07-12 at 21.14.57 (1).jpeg" alt="Favorites" width="200">
-  &nbsp;&nbsp;
-   <img src="WhatsApp Image 2024-07-12 at 21.14.56.jpeg" alt="Search News" width="200">
+  <img src="WhatsApp Image 2024-07-12 at 21.14.55 (1).jpeg" alt="Home Screen" width="250">
 </p>
 
 <p align="center">
-  <b>Add Account Screen</b> &nbsp;&nbsp;&nbsp;&nbsp;
-  <b>Home Screen</b> &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Subscription Screen</b> &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Add Account</b> &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Home Screen</b>
+</p>
+
+<br>
+
+<p align="center">
+  <img src="WhatsApp Image 2024-07-12 at 21.14.56.jpeg" alt="Detail News Screen" width="250">
+  &nbsp;&nbsp;
+  <img src="WhatsApp Image 2024-07-12 at 21.14.57 (1).jpeg" alt="Browse Screen" width="250">
+  &nbsp;&nbsp;
+  <img src="WhatsApp Image 2024-07-12 at 21.14.57 (2).jpeg" alt="Search Screen" width="250">
+</p>
+
+<p align="center">
+  <b>Detail News Screen</b> &nbsp;&nbsp;&nbsp;&nbsp;
   <b>Browse Screen</b> &nbsp;&nbsp;&nbsp;&nbsp;
-  <b>Detail Screen</b>
+  <b>Search Screen</b>
 </p>
 
 <br>
 
 <p align="center">
-  <img src="WhatsApp Image 2024-07-12 at 21.14.57 (2).jpeg" alt="Home Screen" width="200">
+  <img src="WhatsApp Image 2024-07-12 at 21.14.57.jpeg" alt="News Details" width="250">
   &nbsp;&nbsp;
-  <img src="WhatsApp Image 2024-07-12 at 21.14.57.jpeg" alt="News Details" width="200">
+  <img src="WhatsApp Image 2024-07-12 at 21.14.58.jpeg" alt="Search News" width="250">
   &nbsp;&nbsp;
-  <img src="WhatsApp Image 2024-07-12 at 21.14.58.jpeg" alt="Search News" width="200">
-  &nbsp;&nbsp;
-  <img src="WhatsApp Image 2024-07-12 at 21.14.59.jpeg" alt="Favorites" width="200">
+  <img src="WhatsApp Image 2024-07-12 at 21.14.59.jpeg" alt="Favorites" width="250">
 </p>
 
 <p align="center">
-  <b>Search Feature</b> &nbsp;&nbsp;&nbsp;&nbsp;
-  <b>Share Feature</b> &nbsp;&nbsp;&nbsp;&nbsp;
-  <b>Library Screen</b> &nbsp;&nbsp;&nbsp;&nbsp;
-  <b>Card Setting Screen</b>
+  <b>Share Screen</b> &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Library Details</b> &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Addtional Setting Screen</b>
 </p>
 
 <br>
 
 <p align="center">
-  <img src="WhatsApp Image 2024-07-12 at 21.17.52 (1).jpeg" alt="Home Screen" width="200">
+   <img src="WhatsApp Image 2024-07-12 at 21.17.52.jpeg" alt="Add News Screen" width="250">
   &nbsp;&nbsp;
-  <img src="WhatsApp Image 2024-07-12 at 21.17.52.jpeg" alt="News Details" width="200">
+    <img src="WhatsApp Image 2024-07-12 at 21.17.52 (1).jpeg" alt="Response Screen" width="250">
   &nbsp;&nbsp;
-  <img src="WhatsApp Image 2024-07-12 at 21.17.53 (1).jpeg" alt="Search News" width="200">
-  &nbsp;&nbsp;
-  <img src="WhatsApp Image 2024-07-12 at 21.17.53.jpeg" alt="Favorites" width="200">
+  <img src="WhatsApp Image 2024-07-12 at 21.17.53 (1).jpeg" alt="Dark Mode Screen" width="250">
+</p>
+<p align="center">
+  <b>Add News Screen</b> &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Response Screen</b> &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Dark Mode Screen</b>
+<p align="center">
+  
+</p>
+
+<br>
+
+<p align="center">
+ 
+  <img src="WhatsApp Image 2024-07-12 at 21.17.53.jpeg" alt="Additional Setting" width="250">
 </p>
 
 <p align="center">
-  <b>News Extration AI ChatBot</b> &nbsp;&nbsp;&nbsp;&nbsp;
-  <b>Add News Feature</b> &nbsp;&nbsp;&nbsp;&nbsp;
-  <b>Dark Mode Screen</b> &nbsp;&nbsp;&nbsp;&nbsp;
-  <b>Setting Screen</b>
+  <b>Additional Setting</b>
 </p>
 
 <!-- Technologies Used -->
