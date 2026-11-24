@@ -28,7 +28,7 @@ android {
             useSupportLibrary = true
         }
 
-        // Read the API key from gradle.properties
+        // Gemini API key: set API_KEY in ~/.gradle/gradle.properties (never commit it)
         buildConfigField("String", "API_KEY", "\"${project.properties["API_KEY"]}\"")
     }
 

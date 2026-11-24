@@ -1,66 +1,54 @@
-<!-- Project Title -->
-<h1 align="center">Quick News</h1>
+<h1 align="center">📰 Quick News</h1>
 
-<!-- Project Description -->
-<p align="center">Quick News is an innovative news application that provides real-time updates with AI-powered content analysis and image-based news extraction.</p>
-
-<!-- Badges -->
-<p align="center">
-  <img src="https://img.shields.io/badge/Platform-Android-brightgreen" alt="Platform">
-  <img src="https://img.shields.io/badge/Language-Kotlin-orange" alt="Language">
-  <img src="https://img.shields.io/badge/License-MIT-blue" alt="License">
-</p>
-
-<!-- Table of Contents -->
-## Table of Contents
-
-- [Features](#features)
-- [Screenshots](#screenshots)
-- [Technologies Used](#technologies-used)
-- [Setup and Installation](#setup-and-installation)
-
-<!-- Features -->
-## Features
-
-- **Real-Time News Updates**: Stay updated with the latest news from various sources.
-- **Multi-Lingual Content Analysis**: Understand news in multiple languages with AI-powered analysis.
-- **Image-Based News Extraction**: Extract and view news directly from images.
-- **Personalized News**: Get news recommendations tailored to your interests.
-- **Seamless Sharing**: Share news easily with others.
-- **Firebase Integration**: Manage user data efficiently.
-- **Gemini AI Integration**: Enhance news extraction with AI capabilities.
-- **Improved Accessibility**: Multi-lingual support for a global audience.
-
- 
- 
-
- <!-- Screenshots -->
-## 📸 Screenshots
+<p align="center">An Android news app with live headlines, a Gemini-powered assistant that pulls news out of images, and Firebase-backed accounts.</p>
 
 <p align="center">
-  <img 
-    src="UI.jpeg" 
-    alt="Login Screen" 
-    style="width: 750px; height: 500px;"
-  />
+  <img src="https://img.shields.io/badge/Platform-Android-3DDC84?style=flat-square&logo=android&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" />
+  <img src="https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white" />
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" />
+  <img src="https://img.shields.io/badge/Gemini%20AI-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" />
 </p>
 
+<p align="center">
+  <img src="UI.jpeg" alt="Quick News screens" width="750" />
+</p>
 
- 
-<!-- Technologies Used -->
-## Technologies Used
+## ✨ Features
 
-- **Kotlin**: Programming language for Android development.
-- **Retrofit**: HTTP client for API calls.
-- **JSON APIs**: For live news updates.
-- **Firebase**: User data management.
-- **Gemini AI**: Image-based news extraction.
-- **Android Jetpack Components**: ViewModel, LiveData, RecyclerView for efficient data handling and UI updates.
+- **News by category**: categories and articles are read live from Firebase Realtime Database, and images load with Coil.
+- **Ask about an image**: attach one or more images and ask Gemini a question about them. The answer streams in as it's generated.
+- **Auth**: email sign-up and sign-in with Firebase Auth.
+- **Feedback**: users can send feedback, which is stored per user in Firestore (`users/{uid}/feedback`) and listed in the app.
+- **Favourites, library, browse, polls and surveys**: more screens built with Navigation Compose.
+- **Settings, About and Contact** screens, plus an account dialog.
 
-<!-- Setup and Installation -->
-## Setup and Installation
+## 🏗️ Tech Stack & Structure
 
-1. **Clone the repository**:
+| Layer | Tools |
+| --- | --- |
+| UI | Jetpack Compose, Material 3, Navigation Compose |
+| State | MVVM with ViewModel and LiveData / Compose state |
+| AI | Google Generative AI SDK (Gemini), multimodal streaming |
+| Backend | Firebase Auth, Realtime Database, Firestore, Storage |
+
+```
+app/src/main/java/com/example/musicappui/
+├── chat/         # Gemini chat with image input (ChatScreen, chatViewModel)
+├── Login_data/   # SignIn / SignUp screens, AuthViewModel, UserRepository
+├── ui/theme/     # Home, News, Browse, Library, Favourites, Feedback, Settings, Polls
+└── MainActivity.kt
+```
+
+## 🚀 Getting Started
+
+1. Clone the repo and open it in **Android Studio**.
    ```bash
    git clone https://github.com/kushagraSrivastava9651/Quick-News.git
-
+   ```
+2. Get a Gemini API key from [Google AI Studio](https://aistudio.google.com/) and add it to your **user-level** `~/.gradle/gradle.properties`, not the project file:
+   ```properties
+   API_KEY=your_gemini_api_key
+   ```
+3. Create a Firebase project, enable Email/Password auth and Firestore, then replace `app/google-services.json` with your own file.
+4. Sync Gradle and run on a device or emulator (minSdk 24).
