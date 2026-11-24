@@ -1,4 +1,4 @@
-<h1 align="center">📰 Quick News</h1>
+<h1 align="center">Quick News</h1>
 
 <p align="center">An Android news app with live headlines, a Gemini-powered assistant that pulls news out of images, and Firebase-backed accounts.</p>
 
@@ -14,7 +14,7 @@
   <img src="UI.jpeg" alt="Quick News screens" width="750" />
 </p>
 
-## ✨ Features
+## Features
 
 - **News by category**: categories and articles are read live from Firebase Realtime Database, and images load with Coil.
 - **Ask about an image**: attach one or more images and ask Gemini a question about them. The answer streams in as it's generated.
@@ -23,7 +23,7 @@
 - **Favourites, library, browse, polls and surveys**: more screens built with Navigation Compose.
 - **Settings, About and Contact** screens, plus an account dialog.
 
-## 🏗️ Tech Stack & Structure
+## Tech Stack & Structure
 
 | Layer | Tools |
 | --- | --- |
@@ -40,7 +40,7 @@ app/src/main/java/com/example/musicappui/
 └── MainActivity.kt
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 1. Clone the repo and open it in **Android Studio**.
    ```bash
